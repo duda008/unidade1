@@ -2,11 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
 
 :root {
-    --laranja-claro: #e63599;
-    --alto-contraste-fundo: #51023b;
-    --alto-contraste-texto: #ffffff;
-    --alto-contraste-link: #ff0073;
-}
+    --laranja-claro: #FF862A;
+ }
 
 body {
     font-size: 1rem;
@@ -24,13 +21,13 @@ section {
 
 
 .nav-link {
-    color: #cb4367;
+    color: #CB6D43;
     font-weight: 600;
 }
 
 .inicio-fundo {
     /* aula 3 */
-    background-image: url('img/logo.jpg');
+    background-image: url('img/4965007.jpg');
     /* Substitua pelo caminho da sua imagem */
     background-size: cover;
     background-position: right;
@@ -79,8 +76,8 @@ section {
     padding-top: 5rem;
     margin-top: 3rem;
     margin-bottom: 3rem;
-    background: url('img/moranguinho.jpeg') top right no-repeat,
-        url('img/moranguinho.jpeg bottom left no-repeat;
+    background: url('img/flor.png') top right no-repeat,
+        url('img/flor-esquerda.png') bottom left no-repeat;
     background-size: 180px 180px;
     /* Ajuste o tamanho conforme necessário */
 }
@@ -108,7 +105,7 @@ h2 {
 }
 
 .fundo-galeria {
-    background: url('img/melancia.png') bottom right no-repeat;
+    background: url('img/flor-bottom-direita.png') bottom right no-repeat;
     background-size: 180px 180px;
 }
 
@@ -146,7 +143,6 @@ h2 {
     right:20px;
     z-index: 1000;
 }
-
 .rotacao-botao{
     transform: rotate(-90deg);
     transform-origin: right center;
@@ -163,38 +159,4 @@ h2 {
 }
 .apresenta-lista{
     display: none;
-}
-
-.alto-contraste{
-    background-color: var(--alto-contraste-fundo);
-    color: var(--alto-contraste-texto);
-}
-
-.alto-contraste header,
-.alto-contraste footer,
-.alto-contraste .formulario{
-    background-color: var(--alto-contraste-fundo);
-    color: var(--alto-contraste-texto);
-}
-
-.alto-contraste .nav-link{
-    color: var(--alto-contraste-link);
-}
-
-.alto-contraste .botao-inicio,
-.alto-contraste .formulario button,
-.alto-contraste .btn-primary{
-    background-color: var(--alto-contraste-link);
-    color: var(--alto-contraste-fundo)
-}
-
-.alto-contraste #tropicalia {
-    background: none;
-}
-
-.alto-contraste #galeria {
-    background-color: var(--alto-contraste-fundo);
-}
-.alto-contraste .fundo-galeria {
-    background: none;
 }
